@@ -1,0 +1,56 @@
+body {
+  margin:0px;
+}
+
+@font-face {
+  font-family:"Open Sans Bold";
+  src:url(fonts/Open_Sans_Bold/"OpenSans-Bold.woff")
+  format("woff");
+} 
+
+.content{
+  min-width: 1200px;
+  margin: 0px auto;
+}
+
+.top_header{
+  background-color: #eceef4;
+}
+
+.top_header_content {
+  display: flex;
+  background-color: #eceef4;
+}
+
+.top_header_navigation {
+  margin:16px 491px 16px 5px;
+}
+
+.top_header_link{
+  border: solid 0px white;
+  background-color: white;
+  border-radius: 4px;
+  margin: 0px 6px 0px 0px;
+  display: inline-flex;
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  text-decoration: none;
+  color:#7a7b7d;
+}
+
+.top_header_icon{
+  padding: 0px 23px 0px 0px;
+}
+ 
+.top_social_links{
+  margin:16px 0px 15px 0px;
+}
+
+.top_social_link{
+  border-left: solid #dee0e6 1px;
+  padding: 21px 21px 21px 21px;
+}
+.google_social_link {
+  border-right: solid #dee0e6 1px;
+}
+
