@@ -1,5 +1,6 @@
 body {
-  margin: 0px;
+  margin: 0;
+  max-width: 2000px;
 }
 
 @font-face {
@@ -14,54 +15,57 @@ body {
   format("woff");
 }
 
+
+.content_wraper {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
 .top_header {
   background-color: #eceef4;
 }
 
 .top_header_content {
-  background-color: #eceef4;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1160px;
-  margin: 0px auto;
 }
 
 .top_header_unordered_list {
   list-style-type: none;
-  padding: 0px;
-  margin: 24px 0px 0px 0px;  
+  padding: 0;
+  margin: 16px 0 0 0;  
 }
 
 .top_header_li {
-  margin: 0px 6px 0px 0px;
-  padding: 12px 20px 2px 8px;
-  background-color: #ffffff;
-  border-radius: 4px;
+  margin: 0 6px 0 0;
   display: inline;
 }
 
 .top_header_link {
   display: inline-flex;
   font-family: OpenSans-Bold;
+  background-color: #ffffff;
+  border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
   color: #7a7b7d;
+  padding: 8px 20px 7px 8px;
 }
 
-.top_header_li:hover {
+.top_header_link:hover {
   background-color: #c4e3fb;
 }
 
 .top_header_icon {
-  margin: -2px 21px 0px 0px;
+  margin: -2px 21px 0 0;
 }
 
 .top_social_unordered_list {
   list-style-type: none;
   display: inline-flex;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .top_social_li {
@@ -80,43 +84,64 @@ body {
   padding: 21px 21px 17px 21px;
 }
 
-.main_header {
-  background-color: #ffffff;
-}
-
-.main_header_content {
-  background-color: #ffffff;
-}
-
 .main_header_logo_and_contact {
   display: flex;
   justify-content: space-between;
-  max-width: 1160px;
-  margin: 0px auto;
 }
 
 .main_header_logo {
-  margin: 61px 0px 0px -17px;
+  margin: 61px 0 0 -17px;
+  padding: 18px 0 0 0 ;
+  background-image: url(../images/logo.png);
+  width: 403px;
+  height: 73px;
+  text-align: center;
+  font-size: 41px;
+  font-family: Open Sans; 
+  color: #3687c4;
+  text-decoration: none;
 }
 
 .contacts_unordered_list {
   list-style-type: none;
   display: inline-flex;
-  margin: 126px 33px 0px 0px;   
+  margin: 137px 6px 9px 0;   
 }
 
-.contact_li { 
-  padding: 3px 23px 0px 0px;
-}
-
-.map_li {
+.contact_link { 
+  background-image: url(../icons/main_header/tel_icon.png);
+  background-repeat: no-repeat;
   border-right: solid 1px #bcbec3;
-  border-left: solid 1px #bcbec3; 
-  padding: 0px 21px 0px 23px;
+  padding: 10px 26px;
 }
 
-.mail_li {
-  padding: 5px 0px 0px 22px;
+.contact_link:hover {
+  background-image: url(../icons/main_header/tel_icon_blue.png);
+  background-repeat:  no-repeat;
+}
+
+.map_link {
+  background-image: url(../icons/main_header/map_icon.png);
+  background-repeat: no-repeat;
+  border-right: solid 1px #bcbec3;
+  padding: 10px 23px;
+  margin: 0 22px 0 23px ;
+}
+
+.map_link:hover {
+  background-image: url(../icons/main_header/map_icon_blue.png);
+  background-repeat: no-repeat;
+}
+
+.mail_link {
+  background-image: url(../icons/main_header/message_icon.png);
+  background-repeat: no-repeat;
+  padding: 7px 20px;
+}
+
+.mail_link:hover {
+  background-image: url(../icons/main_header/message_icon_blue.png);
+  background-repeat: no-repeat;
 }
 
 .main_header_navigation_and_search {
@@ -125,19 +150,16 @@ body {
 }
 
 .main_header_navigation_and_search_content {
-  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1160px;
-  margin: 0px auto;
 }
 
 .main_header_menu {
   display: inline-flex;
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .main_header_menu_link {
@@ -170,11 +192,52 @@ body {
   border-radius: 5px;
   width: 192px;
   height: 35px;
-  margin: 23px 9px 0px 0px;
+  margin: 22px 3px 0 0;
   font-size: 15px;
 }
 
 .main_header_search_button {
   border: none;
   cursor: pointer;
+}
+
+.heading_baner {
+  background-image: url(../images/heading_baner.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.heading_main_paragraph {
+  font-size: 58.35px;
+  font-family: OpenSans-Bold;
+  color: #ffffff;
+  padding: 245px 0 0 192px;
+  margin: 0;
+}
+
+.heading_baner_paragraph {
+  font-size: 45px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  color: #ffffff; 
+  margin: -95px 0 0 0;
+  text-align: center;
+}
+
+.heading_baner_ampersand {
+  color: #bbedff;
+  font-weight: bold;
+  font-size: 124px; 
+}
+
+.like_box {
+  display: flex;
+  justify-content: flex-end;
+  margin: 120px 0;
+  padding-bottom: 126px;
+}
+
+.moresign {
+  background-color: #f4f4f4;
+  padding: 101px 44px;
 }
