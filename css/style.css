@@ -1,6 +1,7 @@
 body {
-  margin: 0;
-  max-width: 2000px;
+  margin: 0 auto;
+  font-family: OpenSans-Bold, Arial, sans-serif;
+   
 }
 
 @font-face {
@@ -34,26 +35,51 @@ body {
 .top_header_unordered_list {
   list-style-type: none;
   padding: 0;
-  margin: 16px 0 0 0;  
+  margin: 20px 0 0 0;  
 }
 
 .top_header_li {
   margin: 0 6px 0 0;
   display: inline;
+  padding: 4px 20px 6px 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .top_header_link {
-  display: inline-flex;
+  display: inline-block;
   font-family: OpenSans-Bold;
-  background-color: #ffffff;
-  border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
   color: #7a7b7d;
-  padding: 8px 20px 7px 8px;
+  padding-left: 40px;
 }
 
-.top_header_link:hover {
+.blog  {
+  background-image: url(../icons/top_header/blog.png);
+  background-repeat: no-repeat;
+  line-height: 20px;
+}
+
+.jobs {
+  background-image: url(../icons/top_header/jobs.png);
+  background-repeat: no-repeat;
+  line-height: 25px;
+}
+
+.support {
+  background-image: url(../icons/top_header/support.png);
+  background-repeat: no-repeat;
+  line-height: 20px;
+}
+
+.arabic {
+  background-image: url(../icons/top_header/arabic.png);
+  background-repeat: no-repeat;
+  line-height: 20px;
+}
+
+.top_header_li:hover {
   background-color: #c4e3fb;
 }
 
@@ -105,7 +131,7 @@ body {
 .contacts_unordered_list {
   list-style-type: none;
   display: inline-flex;
-  margin: 137px 6px 9px 0;   
+  margin: 137px 24px 4px 0;   
 }
 
 .contact_link { 
@@ -176,7 +202,7 @@ body {
 
 .main_header_li {
   border-right: 1px solid #eceef4;
-  padding: 34px 22px 34px 22px;
+  padding: 30px 15px 33px 15px;
 }
 
 .main_header_li:last-child {
@@ -188,11 +214,11 @@ body {
 }
 
 .main_header_search_box {
-  border: solid 2px #eceef4;
+  border: none;
   border-radius: 5px;
   width: 192px;
   height: 35px;
-  margin: 22px 3px 0 0;
+  margin: 22px 4px 0 5px;
   font-size: 15px;
 }
 
@@ -203,16 +229,18 @@ body {
 
 .heading_baner {
   background-image: url(../images/heading_baner.png);
-  background-position: left;
   background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 .heading_main_paragraph {
-  font-size: 58.35px;
+  font-size: 58px;
   font-family: OpenSans-Bold;
   color: #ffffff;
-  padding: 245px 0 0 192px;
+  padding: 246px 0 0 193px;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .heading_baner_paragraph {
@@ -220,7 +248,7 @@ body {
   font-family: Open Sans;
   font-weight: lighter;
   color: #ffffff; 
-  margin: -95px 0 0 0;
+  margin: -94px 0 0 0;
   text-align: center;
 }
 
@@ -230,14 +258,87 @@ body {
   font-size: 124px; 
 }
 
-.like_box {
+.like_boxes {
   display: flex;
   justify-content: flex-end;
-  margin: 120px 0;
-  padding-bottom: 126px;
+  padding: 120px 0 80px 0;
+}
+
+.green_bottom_box {
+  height: 65px;
+  width: 322px;
+  background-color: #88c94e;
+  margin-top: -70px;
+  opacity: 0.7;
+}
+.green_like_paragraph {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #ffffff;
+  background-image: url(../icons/heading_baner_icons/green_like_icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 18px 0 0 125px;
+  padding: 5px 0 10px 45px;
+}
+
+.yellow_bottom_box {
+  height: 65px;
+  width: 322px;
+  background-color: #feeb75;
+  margin-top: -70px;
+  opacity: 0.7;
+}
+.yellow_like_paragraph {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #cc9800;
+  background-image: url(../icons/heading_baner_icons/yellow_like_icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 18px 0 0 125px;
+  padding: 5px 0 10px 45px;
 }
 
 .moresign {
   background-color: #f4f4f4;
-  padding: 101px 44px;
+  padding: 101px 44px 100px;
+}
+
+.about_and_why_isama {
+  display: flex;
+  margin-top: 92px;
+  column-count: 2;
+  column-gap: 6px;
+}
+
+.about_isama {
+  
+ 
+}
+
+.why_isama {
+ 
+}
+
+.about_and_why_heading {
+  font-size: 26px;
+  color: #6d6e71;
+}
+
+.about_icon {
+  background-image: url(../icons/about_isama_icon.png);
+  background-repeat: no-repeat;
+}
+
+.why_icon {
+  background-image: url(../icons/why_icon.png);
+  background-repeat: no-repeat;
+}
+
+.about_and_why_paragraph {
+  font-size: 16px;
+  color: #868689;
+  font-weight: normal;
+  font-family: Open Sans;
 }
