@@ -289,6 +289,7 @@ body {
   margin-top: -70px;
   opacity: 0.7;
 }
+
 .yellow_like_paragraph {
   font-size: 14px;
   font-family: Open Sans;
@@ -307,18 +308,23 @@ body {
 
 .about_and_why_isama {
   display: flex;
-  margin-top: 92px;
-  column-count: 2;
-  column-gap: 6px;
-}
-
-.about_isama {
-  
- 
+  margin-top: 70px;
+  justify-content: space-between;
 }
 
 .why_isama {
- 
+}
+
+.about_text {
+  width: 386px;
+  margin: -10px 0 0 137px;
+  line-height: 23px;
+}
+
+.why_text {
+  width: 386px;
+  margin: -10px 0 0 130px;
+  line-height: 23px;
 }
 
 .about_and_why_heading {
