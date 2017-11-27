@@ -307,41 +307,150 @@ body {
 }
 
 .about_and_why_isama {
-  display: flex;
-  margin-top: 70px;
-  justify-content: space-between;
+  column-count: 2;
+  column-gap: 115px;
+  margin: 69px 0 75px 0;
 }
 
-.about_text {
-  width: 386px;
-  margin: -10px 0 0 137px;
-  line-height: 23px;
+.about_isama {
+  width: 530px;
 }
 
-.why_text {
-  width: 386px;
-  margin: -10px 0 0 130px;
-  line-height: 23px;
+.why_isama {
+  width: 530px;
 }
 
-.about_and_why_heading {
+.about_heading {
   font-size: 26px;
   color: #6d6e71;
+  padding: 13px 0 0 137px;
+  margin: 0;
+}
+
+.why_heading {
+  font-size: 26px;
+  color: #6d6e71;
+  padding: 13px 0 0 137px;
+  margin: 0;
 }
 
 .about_icon {
-  background-image: url(../icons/about_isama_icon.png);
+  background-image: url(../icons/about_and_why_icons/about_isama_icon.png);
   background-repeat: no-repeat;
 }
 
 .why_icon {
-  background-image: url(../icons/why_icon.png);
+  background-image: url(../icons/about_and_why_icons/why_icon.png);
   background-repeat: no-repeat;
 }
 
-.about_and_why_paragraph {
+.about_paragraph {
   font-size: 16px;
   color: #868689;
   font-weight: normal;
   font-family: Open Sans;
+  padding: 0 0 0 136px;
+  line-height: 24px;
+}
+
+.why_paragraph {
+  font-size: 16px;
+  color: #868689;
+  font-weight: normal;
+  font-family: Open Sans;
+  padding: 0 0 0 136px;
+  line-height: 24px;
+}
+
+.what_isama_do {
+  border-top: 2px solid #eaeced;
+}
+
+.what_do_title {
+  background-image: url(../icons/what_isama_do_icons/title_icon.png);
+  background-repeat: no-repeat;
+  margin: 70px 0 80px 297px;
+}
+
+.what_do_title_heading {
+  color: #6d6e71;
+  font-family: OpenSans-Bold;
+  font-size: 44px; 
+  margin: 0;
+  padding: 14px 0 0 163px;
+}
+
+.what_do_title_paragraph {
+  color: #9c9c9e;
+  font-size: 17px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  padding: 0 0 23px 163px;
+  margin: 0;
+}
+
+.what_do_content {
+  column-count: 2;
+  column-gap: 192px;
+  column-rule: 1px solid #eaeced;
+} 
+
+.what_do_paragraph {
+  color: #9c9c9e;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  margin: 0;
+  padding-left: 98px;
+}
+
+.what_do_heading {
+  display: inline-block;
+  color: #6d6e71;
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  margin: -3px 0 0 0;
+  padding: 0 0 17px 98px;
+}
+
+.what_do_info {
+  width: 510px;
+  height: 188px;
+}
+
+
+.development_icon {
+  background-image: url(../icons/what_isama_do_icons/development_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.software_icon {
+  background-image: url(../icons/what_isama_do_icons/software_icon.png);
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+  padding-left: 18px;
+}
+
+.branding_icon {
+  background-image: url(../icons/what_isama_do_icons/branding_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.mobile_icon {
+  background-image: url(../icons/what_isama_do_icons/mobile_icon.png);
+  background-repeat: no-repeat; 
+}
+
+.interior_icon {
+  background-image: url(../icons/what_isama_do_icons/interior_icon.png);
+  background-repeat: no-repeat; 
+  margin: 0 0 45px -14px;
+  padding: 0 0 0 13px;
+}
+
+.seo_icon {
+  background-image: url(../icons/what_isama_do_icons/seo_icon.png);
+  background-repeat: no-repeat; 
 }
