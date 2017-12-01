@@ -510,7 +510,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.box {
+.project_box {
   background-color: #ffffff;
   display: inline-block;
   border-radius: 5px;
@@ -518,22 +518,140 @@ body {
   padding-bottom: 13px;
 } 
 
-.box_img {
+.project_box_img {
   margin: 18px 13px 15px;
   background-color: #f5f5f5;
   border-radius: 5px;
   border: 1px solid #f5f5f5;
   display: flex;
+  width: 250px;
+  height: 209px;
 }
 
-.box_link_icon {
+.project_box_link_icon {
   border-right: 2px solid #efefef;
   padding: 22px 48px 13px 63px;
-
+  text-decoration: none;
  }
 
-.box_plus_icon {
+.project_box_plus_icon {
   padding: 20px 60px 13px 50px;
+  text-decoration: none;
  }
+
+.team_title {
+  background-image: url(../icons/team_icon/team_title_icon.png);
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 170px;
+  margin: 27px 0 75px 315px;
+}
+
+.team_heading {
+  font-family: OpenSans-Bold; 
+  font-size: 44px;
+  color: #6d6e71;
+  margin: 0;
+  padding: 57px 0 0 185px; 
+}
+
+.team_paragraph {
+  font-family: Open Sans;
+  font-size: 17px;
+  color: #9c9c9e;
+  margin: -1px 0 0 185px;
+  padding: 0; 
+}
+
+.team_boxes {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.team_box {
+  height: 395px;
+  width: 277px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.team_box_img {
+  margin: 43px 70px 24px;
+}
+
+.tean_box_heading {
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  color: #6d6e71;
+  text-align: center;
+  margin: 0;
+}
+
+.team_box_paragraph {
+  font-family: Open Sans;
+  font-size: 17px;
+  color: #98999b;
+  text-align: center;
+  margin: 0;
+}
+
+.team_box_social_links {
+  background-color: #ffffff;
+  width: 277px;
+  height: 62px;
+  margin: 40px 0 0 0;
+}
+
+.team_social_links_box {
+  display: inline-block;
+  margin: 21px 0 0 50px;
+}
+
+.team_box_social_link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 25px 0 0;
+  padding: 11px;
+}
+
+.team_facebook {
+  background-image: url(../icons/team_icon/facebook.png);
+  background-repeat: no-repeat;
+}
+
+.team_twitter {
+  background-image: url(../icons/team_icon/twitter.png);
+  background-repeat: no-repeat;
+}
+
+.team_instagram {
+  background-image: url(../icons/team_icon/instagram.png);
+  background-repeat: no-repeat;
+}
+
+.team_linkedin {
+  background-image: url(../icons/team_icon/linkedin.png);
+  background-repeat: no-repeat;
+}
+
+.team_facebook:hover {
+  background-image: url(../icons/team_icon/facebook_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_twitter:hover {
+  background-image: url(../icons/team_icon/twitter_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_instagram:hover {
+  background-image: url(../icons/team_icon/instagram_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_linkedin:hover {
+  background-image: url(../icons/team_icon/linkedin_hover.png);
+  background-repeat: no-repeat;
+}
 
 
