@@ -231,13 +231,13 @@ body {
   background-image: url(../images/heading_baner.png);
   background-repeat: no-repeat;
   background-size: cover; 
+  padding: 246px 0 0 193px;
 }
 
 .heading_main_paragraph {
   font-size: 58px;
   font-family: OpenSans-Bold;
   color: #ffffff;
-  padding: 246px 0 0 193px;
   margin: 0;
   position: relative;
   z-index: 1;
@@ -248,8 +248,7 @@ body {
   font-family: Open Sans;
   font-weight: lighter;
   color: #ffffff; 
-  margin: -94px 0 0 0;
-  text-align: center;
+  margin: -94px 0 0 4px;
 }
 
 .heading_baner_ampersand {
@@ -271,6 +270,7 @@ body {
   margin-top: -70px;
   opacity: 0.7;
 }
+
 .green_like_paragraph {
   font-size: 14px;
   font-family: Open Sans;
@@ -309,7 +309,8 @@ body {
 .about_and_why_isama {
   column-count: 2;
   column-gap: 115px;
-  margin: 69px 0 65px 0;
+  margin-top: 69px;
+  margin-bottom: 65px;
 }
 
 .about_heading {
@@ -361,8 +362,10 @@ body {
 .what_do_title {
   background-image: url(../icons/what_isama_do_icons/title_icon.png);
   background-repeat: no-repeat;
-  margin: 70px 0 83px 297px;
+  margin: 70px auto;
+  padding: 13px 0 0 163px;
   min-height: 120px;
+  width: 50%;
 }
 
 .what_do_title_heading {
@@ -370,7 +373,6 @@ body {
   font-family: OpenSans-Bold;
   font-size: 44px; 
   margin: 0;
-  padding: 14px 0 0 163px;
 }
 
 .what_do_title_paragraph {
@@ -378,7 +380,6 @@ body {
   font-size: 17px;
   font-family: Open Sans;
   font-weight: lighter;
-  padding: 0 0 23px 163px;
   margin: 0;
 }
 
@@ -410,7 +411,6 @@ body {
   height: 188px;
 }
 
-
 .development_icon {
   background-image: url(../icons/what_isama_do_icons/development_icon.png);
   background-repeat: no-repeat;
@@ -439,7 +439,7 @@ body {
   background-image: url(../icons/what_isama_do_icons/interior_icon.png);
   background-repeat: no-repeat; 
   margin: 0 0 45px -14px;
-  padding: 0 0 0 13px;
+  padding-left: 13px;
 }
 
 .seo_icon {
@@ -456,9 +456,10 @@ body {
   background-image: url(../icons/isama_projects/title_icon.png); 
   background-repeat: no-repeat;
   display: inline-block;
-  margin: 43px 0 75px 330px;
+  margin: 43px auto 33px 330px;
+  padding: 41px 0 0 170px;
   width: 45%;
-  height: 155px;
+  min-height: 155px;
 }
 
 .projects_heading {
@@ -466,7 +467,6 @@ body {
   font-size: 44px;
   color: #6d6e71;
   margin: 0; 
-  padding: 41px 0 0 170px; 
 }
 
 .projects_paragraph {
@@ -474,7 +474,6 @@ body {
   font-size: 17px;
   color: #969799;
   margin: 0;
-  padding: 0 0 0 169px;
 }
 
 .projects_unordered_list {
@@ -509,7 +508,9 @@ body {
   padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .project_box {
   background-color: #ffffff;
   display: inline-block;
@@ -539,12 +540,16 @@ body {
   text-decoration: none;
  }
 
+.isama_team {
+  margin-bottom: 100px;
+}
+
 .team_title {
   background-image: url(../icons/team_icon/team_title_icon.png);
   background-repeat: no-repeat;
   width: 60%;
   height: 170px;
-  margin: 27px 0 75px 315px;
+  margin: 27px auto 75px auto;
 }
 
 .team_heading {
@@ -569,49 +574,50 @@ body {
 }
 
 .team_box {
-  height: 395px;
-  width: 277px;
   background-color: #f5f5f5;
   border-radius: 5px;
+  width: 275px;
+  padding-bottom: 25px;
 }
 
-.team_box_img {
-  margin: 43px 70px 24px;
+.team_box_info {
+  text-align: center;
+  margin-top: 44px;
 }
 
 .tean_box_heading {
   font-family: OpenSans-Bold;
   font-size: 24px;
   color: #6d6e71;
-  text-align: center;
-  margin: 0;
+  margin: 23px 0 0 ;
 }
 
 .team_box_paragraph {
   font-family: Open Sans;
   font-size: 17px;
   color: #98999b;
-  text-align: center;
   margin: 0;
 }
 
 .team_box_social_links {
   background-color: #ffffff;
-  width: 277px;
-  height: 62px;
-  margin: 40px 0 0 0;
+  margin-top: 40px;
 }
 
 .team_social_links_box {
   display: inline-block;
-  margin: 21px 0 0 50px;
+  margin: 21px auto 12px;
+}
+
+.team_social_links_box_li {
+  display: inline-block;
+  margin-right: 25px;
 }
 
 .team_box_social_link {
   text-decoration: none;
   display: inline-block;
-  margin: 0 25px 0 0;
-  padding: 11px;
+  padding: 12px;
 }
 
 .team_facebook {
