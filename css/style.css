@@ -53,30 +53,27 @@ body {
   text-decoration: none;
   color: #7a7b7d;
   padding-left: 40px;
+  line-height: 22px;  
 }
 
 .blog  {
   background-image: url(../icons/top_header/blog.png);
   background-repeat: no-repeat;
-  line-height: 20px;
 }
 
 .jobs {
   background-image: url(../icons/top_header/jobs.png);
   background-repeat: no-repeat;
-  line-height: 25px;
 }
 
 .support {
   background-image: url(../icons/top_header/support.png);
   background-repeat: no-repeat;
-  line-height: 20px;
 }
 
 .arabic {
   background-image: url(../icons/top_header/arabic.png);
   background-repeat: no-repeat;
-  line-height: 20px;
 }
 
 .top_header_li:hover {
@@ -313,17 +310,13 @@ body {
   margin-bottom: 65px;
 }
 
-.about_heading {
-  font-size: 26px;
-  color: #6d6e71;
+.about_and_why_info {
   padding: 13px 0 0 137px;
-  margin: 0;
 }
 
-.why_heading {
+.about_and_why_heading {
   font-size: 26px;
   color: #6d6e71;
-  padding: 13px 0 0 137px;
   margin: 0;
 }
 
@@ -337,21 +330,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.about_paragraph {
+.about_and_why_paragraph {
   font-size: 16px;
   color: #868689;
   font-weight: normal;
   font-family: Open Sans;
-  padding: 0 0 0 136px;
-  line-height: 24px;
-}
-
-.why_paragraph {
-  font-size: 16px;
-  color: #868689;
-  font-weight: normal;
-  font-family: Open Sans;
-  padding: 0 0 0 136px;
   line-height: 24px;
 }
 
@@ -570,7 +553,8 @@ body {
 
 .team_boxes {
   display: flex; 
-  justify-content: space-between; 
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .team_box {
@@ -578,6 +562,7 @@ body {
   border-radius: 5px;
   width: 275px;
   padding-bottom: 25px;
+  margin-right: 15px;
 }
 
 .team_box_info {
@@ -660,4 +645,7 @@ body {
   background-repeat: no-repeat;
 }
 
-
+.isama_contacts {
+  background-image: url(../images/map_img.png);
+  background-repeat: no-repeat;
+}
