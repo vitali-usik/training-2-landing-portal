@@ -1,0 +1,651 @@
+body {
+  margin: 0 auto;
+  font-family: OpenSans-Bold, Arial, sans-serif;
+   
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(fonts/Open_Sans_Bold/"OpenSans-Bold.woff")
+  format("woff");
+} 
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(fonts/Open_Sans_Condensed_Light/"OpenSans-CondLight.woff")
+  format("woff");
+}
+
+
+.content_wraper {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.top_header {
+  background-color: #eceef4;
+}
+
+.top_header_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top_header_unordered_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0 0;  
+}
+
+.top_header_li {
+  margin: 0 6px 0 0;
+  display: inline;
+  padding: 4px 20px 6px 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.top_header_link {
+  display: inline-block;
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: #7a7b7d;
+  padding-left: 40px;
+  line-height: 22px;  
+}
+
+.blog  {
+  background-image: url(../icons/top_header/blog.png);
+  background-repeat: no-repeat;
+}
+
+.jobs {
+  background-image: url(../icons/top_header/jobs.png);
+  background-repeat: no-repeat;
+}
+
+.support {
+  background-image: url(../icons/top_header/support.png);
+  background-repeat: no-repeat;
+}
+
+.arabic {
+  background-image: url(../icons/top_header/arabic.png);
+  background-repeat: no-repeat;
+}
+
+.top_header_li:hover {
+  background-color: #c4e3fb;
+}
+
+.top_header_icon {
+  margin: -2px 21px 0 0;
+}
+
+.top_social_unordered_list {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+
+.top_social_li {
+  border-left: 1px solid #dee0e6; 
+}
+
+.top_social_li:last-child {
+  border-right: 1px solid #dee0e6;
+}
+
+.top_social_li:hover {
+  background-color: #c4e3fb;
+}
+
+.top_social_icon {
+  padding: 21px 21px 17px 21px;
+}
+
+.main_header_logo_and_contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_header_logo {
+  margin: 61px 0 0 -17px;
+  padding: 18px 0 0 0 ;
+  background-image: url(../images/logo.png);
+  width: 403px;
+  height: 73px;
+  text-align: center;
+  font-size: 41px;
+  font-family: Open Sans; 
+  color: #3687c4;
+  text-decoration: none;
+}
+
+.contacts_unordered_list {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 137px 24px 4px 0;   
+}
+
+.contact_link { 
+  background-image: url(../icons/main_header/tel_icon.png);
+  background-repeat: no-repeat;
+  border-right: solid 1px #bcbec3;
+  padding: 10px 26px;
+}
+
+.contact_link:hover {
+  background-image: url(../icons/main_header/tel_icon_blue.png);
+  background-repeat:  no-repeat;
+}
+
+.map_link {
+  background-image: url(../icons/main_header/map_icon.png);
+  background-repeat: no-repeat;
+  border-right: solid 1px #bcbec3;
+  padding: 10px 23px;
+  margin: 0 22px 0 23px ;
+}
+
+.map_link:hover {
+  background-image: url(../icons/main_header/map_icon_blue.png);
+  background-repeat: no-repeat;
+}
+
+.mail_link {
+  background-image: url(../icons/main_header/message_icon.png);
+  background-repeat: no-repeat;
+  padding: 7px 20px;
+}
+
+.mail_link:hover {
+  background-image: url(../icons/main_header/message_icon_blue.png);
+  background-repeat: no-repeat;
+}
+
+.main_header_navigation_and_search {
+  border-top: 1px solid #eceef4;
+  margin-top: 53px;
+}
+
+.main_header_navigation_and_search_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main_header_menu {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main_header_menu_link {
+  font-family: OpenSans-Bold;
+  font-size: 13px;
+  text-decoration: none;
+  color: #6d6e71;
+  text-align: center;
+}
+
+.main_header_menu_link:hover {
+  color: #64bde8;
+}
+
+.main_header_li {
+  border-right: 1px solid #eceef4;
+  padding: 30px 15px 33px 15px;
+}
+
+.main_header_li:last-child {
+  border-right: none;
+}
+
+.main_header_search {
+  display: inline-flex;
+}
+
+.main_header_search_box {
+  border: none;
+  border-radius: 5px;
+  width: 192px;
+  height: 35px;
+  margin: 22px 4px 0 5px;
+  font-size: 15px;
+}
+
+.main_header_search_button {
+  border: none;
+  cursor: pointer;
+}
+
+.heading_baner {
+  background-image: url(../images/heading_baner.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 246px 0 0 193px;
+}
+
+.heading_main_paragraph {
+  font-size: 58px;
+  font-family: OpenSans-Bold;
+  color: #ffffff;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.heading_baner_paragraph {
+  font-size: 45px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  color: #ffffff; 
+  margin: -94px 0 0 4px;
+}
+
+.heading_baner_ampersand {
+  color: #bbedff;
+  font-weight: bold;
+  font-size: 124px; 
+}
+
+.like_boxes {
+  display: flex;
+  justify-content: flex-end;
+  padding: 120px 0 80px 0;
+}
+
+.green_bottom_box {
+  height: 65px;
+  width: 322px;
+  background-color: #88c94e;
+  margin-top: -70px;
+  opacity: 0.7;
+}
+
+.green_like_paragraph {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #ffffff;
+  background-image: url(../icons/heading_baner_icons/green_like_icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 18px 0 0 125px;
+  padding: 5px 0 10px 45px;
+}
+
+.yellow_bottom_box {
+  height: 65px;
+  width: 322px;
+  background-color: #feeb75;
+  margin-top: -70px;
+  opacity: 0.7;
+}
+
+.yellow_like_paragraph {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #cc9800;
+  background-image: url(../icons/heading_baner_icons/yellow_like_icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 18px 0 0 125px;
+  padding: 5px 0 10px 45px;
+}
+
+.moresign {
+  background-color: #f4f4f4;
+  padding: 101px 44px 100px;
+}
+
+.about_and_why_isama {
+  column-count: 2;
+  column-gap: 115px;
+  margin-top: 69px;
+  margin-bottom: 65px;
+}
+
+.about_and_why_info {
+  padding: 13px 0 0 137px;
+}
+
+.about_and_why_heading {
+  font-size: 26px;
+  color: #6d6e71;
+  margin: 0;
+}
+
+.about_icon {
+  background-image: url(../icons/about_and_why_icons/about_isama_icon.png);
+  background-repeat: no-repeat;
+}
+
+.why_icon {
+  background-image: url(../icons/about_and_why_icons/why_icon.png);
+  background-repeat: no-repeat;
+}
+
+.about_and_why_paragraph {
+  font-size: 16px;
+  color: #868689;
+  font-weight: normal;
+  font-family: Open Sans;
+  line-height: 24px;
+}
+
+.what_isama_do {
+  border-top: 2px solid #eaeced;
+}
+
+.what_do_title {
+  background-image: url(../icons/what_isama_do_icons/title_icon.png);
+  background-repeat: no-repeat;
+  margin: 70px auto;
+  padding: 13px 0 0 163px;
+  min-height: 120px;
+  width: 50%;
+}
+
+.what_do_title_heading {
+  color: #6d6e71;
+  font-family: OpenSans-Bold;
+  font-size: 44px; 
+  margin: 0;
+}
+
+.what_do_title_paragraph {
+  color: #9c9c9e;
+  font-size: 17px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.what_do_content {
+  column-count: 2;
+  column-gap: 192px;
+  column-rule: 1px solid #eaeced;
+} 
+
+.what_do_paragraph {
+  color: #9c9c9e;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  margin: 0;
+  padding-left: 98px;
+}
+
+.what_do_heading {
+  display: inline-block;
+  color: #6d6e71;
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  margin: -3px 0 0 0;
+  padding: 0 0 17px 98px;
+}
+
+.what_do_info {
+  height: 188px;
+}
+
+.development_icon {
+  background-image: url(../icons/what_isama_do_icons/development_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.software_icon {
+  background-image: url(../icons/what_isama_do_icons/software_icon.png);
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+  padding-left: 18px;
+}
+
+.branding_icon {
+  background-image: url(../icons/what_isama_do_icons/branding_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.mobile_icon {
+  background-image: url(../icons/what_isama_do_icons/mobile_icon.png);
+  background-repeat: no-repeat; 
+}
+
+.interior_icon {
+  background-image: url(../icons/what_isama_do_icons/interior_icon.png);
+  background-repeat: no-repeat; 
+  margin: 0 0 45px -14px;
+  padding-left: 13px;
+}
+
+.seo_icon {
+  background-image: url(../icons/what_isama_do_icons/seo_icon.png);
+  background-repeat: no-repeat; 
+}
+
+.isama_projects {
+  background-color: #efefef;
+  margin-top: 60px;
+}
+
+.isama_projects_title {
+  background-image: url(../icons/isama_projects/title_icon.png); 
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 43px auto 33px 330px;
+  padding: 41px 0 0 170px;
+  width: 45%;
+  min-height: 155px;
+}
+
+.projects_heading {
+  font-family: OpenSans-Bold;
+  font-size: 44px;
+  color: #6d6e71;
+  margin: 0; 
+}
+
+.projects_paragraph {
+  font-family: Open Sans;
+  font-size: 17px;
+  color: #969799;
+  margin: 0;
+}
+
+.projects_unordered_list {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+}
+
+.projects_li {
+  display: inline;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.projects_link:hover {
+  background-color: #ffffff;
+}
+
+.projects_link {
+  display: inline-block;
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: #d1d1d1; 
+  border: 2px solid #cecece;
+  border-radius: 4px;
+  padding: 12px 32px; 
+} 
+
+.project_boxes { 
+  margin-top: 32px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project_box {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 18px 12px 0 0;
+  padding-bottom: 13px;
+} 
+
+.project_box_img {
+  margin: 18px 13px 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  display: flex;
+  width: 250px;
+  height: 209px;
+}
+
+.project_box_link_icon {
+  border-right: 2px solid #efefef;
+  padding: 22px 48px 13px 63px;
+  text-decoration: none;
+ }
+
+.project_box_plus_icon {
+  padding: 20px 60px 13px 50px;
+  text-decoration: none;
+ }
+
+.isama_team {
+  margin-bottom: 100px;
+}
+
+.team_title {
+  background-image: url(../icons/team_icon/team_title_icon.png);
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 170px;
+  margin: 27px auto 75px auto;
+}
+
+.team_heading {
+  font-family: OpenSans-Bold; 
+  font-size: 44px;
+  color: #6d6e71;
+  margin: 0;
+  padding: 57px 0 0 185px; 
+}
+
+.team_paragraph {
+  font-family: Open Sans;
+  font-size: 17px;
+  color: #9c9c9e;
+  margin: -1px 0 0 185px;
+  padding: 0; 
+}
+
+.team_boxes {
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team_box {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  width: 275px;
+  padding-bottom: 25px;
+  margin-right: 15px;
+}
+
+.team_box_info {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.tean_box_heading {
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  color: #6d6e71;
+  margin: 23px 0 0 ;
+}
+
+.team_box_paragraph {
+  font-family: Open Sans;
+  font-size: 17px;
+  color: #98999b;
+  margin: 0;
+}
+
+.team_box_social_links {
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+
+.team_social_links_box {
+  display: inline-block;
+  margin: 21px auto 12px;
+}
+
+.team_social_links_box_li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.team_box_social_link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px;
+}
+
+.team_facebook {
+  background-image: url(../icons/team_icon/facebook.png);
+  background-repeat: no-repeat;
+}
+
+.team_twitter {
+  background-image: url(../icons/team_icon/twitter.png);
+  background-repeat: no-repeat;
+}
+
+.team_instagram {
+  background-image: url(../icons/team_icon/instagram.png);
+  background-repeat: no-repeat;
+}
+
+.team_linkedin {
+  background-image: url(../icons/team_icon/linkedin.png);
+  background-repeat: no-repeat;
+}
+
+.team_facebook:hover {
+  background-image: url(../icons/team_icon/facebook_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_twitter:hover {
+  background-image: url(../icons/team_icon/twitter_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_instagram:hover {
+  background-image: url(../icons/team_icon/instagram_hover.png);
+  background-repeat: no-repeat;
+}
+
+.team_linkedin:hover {
+  background-image: url(../icons/team_icon/linkedin_hover.png);
+  background-repeat: no-repeat;
+}
+
+.isama_contacts {
+  background-image: url(../images/map_img.png);
+  background-repeat: no-repeat;
+}
